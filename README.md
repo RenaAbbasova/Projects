@@ -1,14 +1,16 @@
-E_commerce_project
+# Data science notebooks: Upgrade Hub bootcamp and Learnbay
 
+Notebooks from my data science training. Each one has its own focus; the last column says how far it is.
 
-Objective:
-The primary aim of this project is to construct an unsupervised learning model for customer analysis using the RFM methodology.
+| Notebook | What it is | Status |
+|---|---|---|
+| `PROJECT_E_commerce.ipynb` | Customer segmentation with RFM (recency, frequency, monetary value) and K-Means, the most active days, and a recommendation engine based on customer similarity. | Complete, results saved |
+| `autism_en_notebook.ipynb` | Final project of the Upgrade Hub bootcamp: predicting autism traits (logistic regression, AdaBoost, SVM, Random Forest) with feature and permutation importance. | **Under review.** The inputs include the Q-Chat-10 questionnaire items and score, which are the screening tool itself, so a near-perfect accuracy is expected and says little. The test set is only 5%. |
+| `flight_price_prediction.ipynb` | Analysis and prediction of flight ticket prices. | **Under review.** Results are not saved, and the target encoding and scaling are computed on all the data **before** the train/test split. |
 
-Project Description:
-In this project, we conduct an analysis and segmentation of customers from an e-commerce enterprise by implementing the RFM (Recency, Frequency, Monetary) framework. Furthermore, we investigate the identification of the most active day, which provides insights into customer behavioral patterns.
+## Projects that moved to their own repository
 
-Key Findings:
-A significant insight we have derived from our analysis is the successful identification of prime customers.
+- **Tesla stock forecasting** → [Tesla_stock_prediction](https://github.com/RenaAbbasova/Tesla_stock_prediction), rebuilt with a naive baseline and an honest evaluation.
+- **Customer churn** → [Telecom-project](https://github.com/RenaAbbasova/Telecom-project).
 
-Recommendation Engine:
-We have developed a recommendation engine that leverages Natural Language Processing (NLP) techniques. This engine is based on multiple recommendation strategies and a sophisticated filtration approach. The focus is on determining the degree of similarity between customers, primarily based on the products they have purchased. Through NLP-based methods, we enhance our ability to make personalized and accurate recommendations, improving the overall customer experience.
+For how I evaluate models now, see those two repositories and [FakeNews_Detector](https://github.com/RenaAbbasova/FakeNews_Detector).
